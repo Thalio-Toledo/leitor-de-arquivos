@@ -2,7 +2,7 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=blue&style=for-the-badge)
 
-Projeto como objetivo de brincar com a biblioteca Fs(File system) do node JS, nele criei 4 arquivos de texto onde o obejtivo seria ler todos os arquivos e retornar os texto de 
+Projeto como objetivo de brincar com a biblioteca Fs(File system) do node JS, nele criei 4 arquivos de texto onde o objetivo seria ler todos os arquivos e retornar os texto de 
 cada um deles, ainda estou brincando com isso, mas já está bem interessante. Em um primeiro momento usei o arquvo inde.js para realizar esse trabalho porém achei melhor exportar 
 minha função utilizando o module.exports assim pude reutiliza-la no arquivo cli.js. 
 No arquivo cli.js consigo pegar os parametros do caminho pelo recurso do node process.argv passar o valor para minha função pegarTexto e retornar os valores desejados.
